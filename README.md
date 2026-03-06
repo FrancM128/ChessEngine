@@ -1,7 +1,7 @@
 <h1 align="center">Chess Engine</h1>
 
 <p align="center">
-  <em>Un motore scacchistico basato su rete NNUE, sviluppato in Python, con interfaccia in html da girare in locale.</em>
+  <em>Un motore scacchistico basato su rete NNUE, sviluppato in Python, con interfaccia in html da girare in locale (*).</em>
 </p>
 
 ---
