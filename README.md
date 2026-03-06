@@ -6,7 +6,7 @@
 
 ---
 
-## 📖 Descrizione
+## Descrizione
 **Chess Engine** è un motore scacchistico sperimentale che combina la generazione di mosse tradizionale con la valutazione delle posizioni affidata all'intelligenza artificiale. 
 
 Il progetto è pensato per esplorare l'addestramento e l'integrazione di architetture neurali nel gioco degli scacchi, si cerca di consolidare le teorie del deep learning attraverso la tavola degli scacchi.
@@ -18,7 +18,7 @@ Il progetto è pensato per esplorare l'addestramento e l'integrazione di archite
 
 ---
 
-## 📊 Dataset
+## Dataset
 L'addestramento del modello si basa su 1 milione (*) di posizioni di partite reali per catturare pattern posizionali e tattici di variazioni standard. 
 
 I dati utilizzati per il training provengono dai data dump mensili open-source di **[Lichess.org Open Database](https://database.lichess.org/)** (rilasciati in pubblico dominio con licenza CC0). 
@@ -28,7 +28,7 @@ I dati utilizzati per il training provengono dai data dump mensili open-source d
 
 ---
 
-## 🧠 Architettura NNUE 
+##  Architettura NNUE 
 Il cuore della valutazione di questo engine è una rete neurale ottimizzata, strutturata seguendo i principi delle architetture **NNUE** (Efficiently Updatable Neural Network). 
 
 Invece di affidarsi a una complessa funzione di valutazione scritta a mano, la rete impara a stimare il vantaggio direttamente dai dati storici.
