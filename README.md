@@ -37,7 +37,7 @@ Invece di affidarsi a una complessa funzione di valutazione scritta a mano, la r
 
 * **Input (Rappresentazione):** Rappresentato attraverso la Piece-Square representation
 * * **Topologia della Rete:** La rete è composta da un primo strato di input di 768 (64 celle x 12 pezzi) con 3 hidden layer 256->128->64, attivazione tra i layers secondo ReLU
-* **Output:** La rete restituisce uno scalare che rappresenta la valutazione statica della posizione dal punto di vista del giocatore che ha il tratto, dato in centipawns negativo o positivo se rispettivamente dal punto di vista del nero o bianco.
+* **Output:** La rete restituisce uno scalare che rappresenta la valutazione statica della posizione dal punto di vista del giocatore che ha il tratto, dato in centipawns negativo o positivo se rispettivamente dal punto di vista del nero o bianco. Le posizioni iniziali sono scelte casualmente dal fine "gm2001.bin" attraverso polyglot in python
 * **Integrazione:** L'inferenza avviene tramite i tensori di PyTorch, chiamata in fase di ricerca (Search) sulle foglie dell'albero delle varianti attraverso Negamax.
 
 ---
